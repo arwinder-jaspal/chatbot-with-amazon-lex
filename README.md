@@ -11,7 +11,7 @@ This is a simple chatbot with Amazon Lex. I will guide you on how to create a ch
 1. Log in to [Amazon Lex](https://console.aws.amazon.com/lex/home) 
 2. Create a bot in Amazon Lex.
 ![Create a bot](./docs/images/1.%20Create%20a%20bot.png "Create a bot")
-3. Create a blank bot.
+3. Create a blank bot using Amazon Lex.
 ![Create a blank bot](./docs/images/2.%20Create%20a%20blank%20bot.png "Create a blank bot")
 - For bot name, enter "BankerBot".
 - For Description, enter "Banker Bot to help customer check their balance and make transfer".
@@ -112,12 +112,15 @@ Sorry I am having trouble understanding. Can you describe what you'd like to do 
 - Scroll down to **Variations - optional**.
 - Expand the arrow.
 - Enter the following text:
+```
 Hmm could you try rephrasing that? I can help you find your account balance, transfer funds and make a payment.
+```
 ![Creating FallbackIntent](./docs/images/12.Fallbackresponse.png "Creating FallbackIntent")
 
 - Choose **Save intent**.
 - Choose **Build**.
 - Choose **Test**.
+
 ![Chatbot](./docs/images/13.FallbackTest.png "Chatbot")
 
 > **How does my chatbot respond to these user inputs?**
