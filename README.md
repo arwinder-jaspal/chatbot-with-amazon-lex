@@ -1,5 +1,7 @@
 # Chatbot with Amazon Lex
 
+[Demo](https://github.com/arwinder-jaspal/chatbot-with-amazon-lex?tab=readme-ov-file#demo)
+
 ## Description
 
 This is a simple chatbot with Amazon Lex. I will guide you on how to create a chatbot using Amazon Lex.
